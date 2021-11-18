@@ -255,6 +255,38 @@ html {
   src: url("/fonts/GT-Alpina-Standard-Bold-Italic.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "Bradford";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/BradfordLL-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Bradford";
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  src: url("/fonts/BradfordLL-Italic.woff2") format("woff2");
+}
+
+
+@font-face {
+  font-family: "Bradford";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/BradfordLL-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Neue Haas Unica";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/NeueHaasUnicaW06-Light.woff2") format("woff2");
+}
 /*
 
 The Bahunya CSS framework https://kimeiga.github.io/bahunya/
@@ -708,8 +740,8 @@ dt {
   }
 }
 html {
-  font-family: GT Alpina, Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
-  --font-family: GT Alpina, Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+  font-family: Bradford, Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+  --font-family: Bradford, Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
 }
 form {
   padding: 1.5em 1.5em 0;
@@ -856,7 +888,7 @@ video {
   max-width: 100%;
 }
 body {
-  font-family: GT Alpina, Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+  font-family: Bradford, Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
   background: white;
   color: black;
 }
